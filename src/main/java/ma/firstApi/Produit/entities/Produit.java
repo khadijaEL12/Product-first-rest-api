@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 @Entity
-@Data @AllArgsConstructor @NoArgsConstructor
+@Data @AllArgsConstructor @NoArgsConstructor @Getter
 public class Produit  implements Serializable {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
